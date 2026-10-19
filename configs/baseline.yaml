@@ -1,0 +1,7 @@
+scenario:
+  initial_mass_kg: 20000
+  payload_kg: 2000
+  delta_v_m_s: 9000
+  duration_days: 365
+  reserve_fraction: 0.05
+model_scope: "Equivalent-delta-v mass screen; NEP duration constraint is a necessary acceleration proxy."

@@ -1,0 +1,6 @@
+candidate,closest_work,overlap,distinguishing_claim_status,limitation
+Mass-time crossover screening,White 2011; Machemer et al. 2023,NEP specific-mass and trajectory coupling,not novel as a concept,Current implementation is intentionally lower fidelity
+Joint uncertainty architecture selection,spacecraft uncertainty optimization literature,robust optimization is established,possible reproducibility contribution only,NEP-specific prior art needs deeper chaining
+Hybrid NTP-NEP staging,hybrid/bimodal concepts and NASA NEP-chemical tools,hybrid architecture is established,not selected,Need comprehensive patent and mission prior-art review
+Radiator-aware NEP selection,Machemer et al. 2023; Kokan et al. 2022,radiator mass and alpha are already central,not selected as novel hardware,No thermal subsystem design claimed
+Variable-power trajectory method,recent coupled MDO studies,power-propulsion-trajectory coupling exists,not selected,Requires high-fidelity optimal control benchmark

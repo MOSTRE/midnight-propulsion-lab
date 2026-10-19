@@ -1,0 +1,11 @@
+date,source,query_or_identifier,result_count,screening_decision,notes
+2026-10-19,NTRS,20070031964,1,included,2007 NTP Mars requirements and parametric sensitivity study
+2026-10-19,NTRS,20220017479,1,included,Radiator design assumptions materially affect NEP power specific mass
+2026-10-19,National Academies,10.17226/25977,1,included,2021 assessment; do not treat as current technology status
+2026-10-19,MIT DSpace,Technology survey and performance scaling for high power NEP,1,included,2011 thesis couples mass models and low-thrust mission modeling
+2026-10-19,Journal of Electric Propulsion,10.1007/s44205-025-00145-x,1,included,2025 NEP Saturn/Enceladus parametric mission study
+2026-10-19,Google Patents,nuclear electric propulsion spacecraft radiator mass optimization,1,flagged,FR2996527A1 found by initial search; claim scope not yet reviewed
+2026-10-19,Web search,hybrid nuclear thermal electric propulsion spacecraft,1,flagged,Hybrid/bimodal concepts exist; no novelty inference permitted
+2026-10-19,Tool documentation,SciPy solve_ivp and DOP853,1,included,Selected installed high-order integrator for bounded planar validation experiment
+2026-10-19,Tudat documentation,TudatPy installation,1,not selected,Conda-first distribution adds an environment outside this minimal reproducible project
+2026-10-19,Dymos documentation,Dymos installation,1,not selected,Capable but advanced Windows optimizer path has additional toolchain constraints

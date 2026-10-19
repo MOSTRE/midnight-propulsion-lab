@@ -1,0 +1,58 @@
+{
+  "benchmark": "circular-coplanar Sun-centered Earth-to-Mars surrogate",
+  "screening_proxy": {
+    "architecture": "nep",
+    "feasible": true,
+    "reason": "feasible",
+    "payload_margin_kg": 3283.7055829225683,
+    "propellant_kg": 3569.010706358887,
+    "dry_mass_kg": 13147.283710718546,
+    "thrust_n": 30.59148638933785,
+    "acceleration_m_s2": 0.0018300399374448363,
+    "required_acceleration_m_s2": 0.00028538812785388126,
+    "radiator_area_m2": 151.9604757016394,
+    "radiator_mass_kg": 911.7628542098364,
+    "power_system_mass_kg": 8000.0,
+    "mass_ratio": 1.2714637323486973
+  },
+  "trajectory": {
+    "success": true,
+    "optimizer_converged": true,
+    "optimizer_status": 3,
+    "optimizer_cost": 2.2037228522993127e-05,
+    "optimizer_optimality": 0.0030963394403863928,
+    "message": "`xtol` termination condition is satisfied.",
+    "final_position_error_m": 6119.668692038174,
+    "final_velocity_error_m_s": 0.012259983345308152,
+    "final_mass_kg": 15968.38997171625,
+    "propellant_used_kg": 4031.6100282837506,
+    "max_thrust_n": 30.59148638933785,
+    "dry_mass_kg": 12861.762854209835,
+    "duration_days": 365.0,
+    "nfev": 65,
+    "controls": [
+      -0.9020874932987933,
+      -0.6121369589689546,
+      0.9674656340328358,
+      1.6968891567191178,
+      1.3239887630615708,
+      -0.1961783375801511,
+      -0.08459047837206969,
+      1.4062269320177674,
+      0.49931644374159584,
+      0.2454268820937694,
+      5.094013453130172e-08,
+      0.03748242422939522,
+      0.2652015928127253,
+      0.24290827355913935,
+      0.021084316281416292,
+      5.658271372844566e-07
+    ]
+  },
+  "propagation_convergence": {
+    "frozen_control_final_position_difference_m": 0.008359825287037354,
+    "frozen_control_final_velocity_difference_m_s": 9.127793224353087e-10,
+    "frozen_control_final_mass_difference_kg": 1.6370904631912708e-11
+  },
+  "interpretation": "The trajectory result is an experimental bounded-control feasibility search, not a full ephemeris or planetary-capture mission."
+}

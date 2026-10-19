@@ -1,0 +1,12 @@
+benchmark: circular-coplanar Earth-to-Mars rendezvous surrogate
+central_body: Sun only
+earth_and_mars: prescribed circular markers; no planetary gravity, ephemerides, escape, or capture
+duration_days: 365
+control: 8 inertial-direction, piecewise-constant thrust arcs; throttle bounded [0, 1]
+arrival_gate:
+  position_m: 5.0e8
+  velocity_m_s: 500
+integrator:
+  method: DOP853
+  rtol: 1.0e-10
+  atol: 1.0e-3

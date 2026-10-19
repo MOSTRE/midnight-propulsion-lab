@@ -1,0 +1,32 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.12", "3.13"]
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Install project
+        run: python -m pip install -e ".[dev]"
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Compile Python files
+        run: python -m compileall -q src tests app
+      - name: Reproduce small screening run
+        run: |
+          python -m midnight_propulsion_lab.cli run --samples 50 --seed 20261019 --results /tmp/mpl-results
+          python -m midnight_propulsion_lab.cli figures --results /tmp/mpl-results --figures /tmp/mpl-figures

@@ -1,0 +1,57 @@
+{
+  "seed": 20261019,
+  "samples": 2000,
+  "baseline": [
+    {
+      "architecture": "chemical",
+      "feasible": false,
+      "reason": "exceeds initial mass",
+      "payload_margin_kg": -55424.184202110235,
+      "propellant_kg": 66040.91129825021,
+      "dry_mass_kg": 9383.272903860017,
+      "thrust_n": 0.0,
+      "acceleration_m_s2": 0.0,
+      "required_acceleration_m_s2": 0.00028538812785388126,
+      "radiator_area_m2": 0.0,
+      "radiator_mass_kg": 0.0,
+      "power_system_mass_kg": 0.0,
+      "mass_ratio": 8.038153102323479
+    },
+    {
+      "architecture": "ntp",
+      "feasible": false,
+      "reason": "exceeds initial mass",
+      "payload_margin_kg": -1721.4561253304455,
+      "propellant_kg": 14141.628180114425,
+      "dry_mass_kg": 7579.8279452160195,
+      "thrust_n": 0.0,
+      "acceleration_m_s2": 0.0,
+      "required_acceleration_m_s2": 0.00028538812785388126,
+      "radiator_area_m2": 0.0,
+      "radiator_mass_kg": 0.0,
+      "power_system_mass_kg": 0.0,
+      "mass_ratio": 2.865692504147124
+    },
+    {
+      "architecture": "nep",
+      "feasible": true,
+      "reason": "feasible",
+      "payload_margin_kg": 3283.7055829225683,
+      "propellant_kg": 3569.010706358887,
+      "dry_mass_kg": 13147.283710718546,
+      "thrust_n": 30.59148638933785,
+      "acceleration_m_s2": 0.0018300399374448363,
+      "required_acceleration_m_s2": 0.00028538812785388126,
+      "radiator_area_m2": 151.9604757016394,
+      "radiator_mass_kg": 911.7628542098364,
+      "power_system_mass_kg": 8000.0,
+      "mass_ratio": 1.2714637323486973
+    }
+  ],
+  "selection_counts": {
+    "chemical": 0,
+    "ntp": 321,
+    "nep": 1288,
+    "none": 391
+  }
+}

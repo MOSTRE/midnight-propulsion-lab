@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: Midnight Propulsion Lab
+message: "Please cite this repository as a low-fidelity, model-derived screening study."
+type: software
+version: 0.1.0
+date-released: 2026-10-19
+license: MIT
